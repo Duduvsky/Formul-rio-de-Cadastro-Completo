@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="contem">
+        <header>
+            <h2>Criar uma conta</h2>
+        </header>
+        <form id="form" class="form" >
+            <div class="form-control">
+                <label for="username">Nome de Usuário</label>
+                <input type="text" id="username" placeholder="Digite seu nome">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="Digite seu e-mail">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <div class="form-control">
+                <label for="password-confirmation">Confirme sua Senha</label>
+                <input type="password" id="password-confirmation" placeholder="Digite a senha novamente">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/ff9e3537b1.js" crossorigin="anonymous"></script>
+    <script src="./scrypts.js"></script>
+</body>
+</html>
